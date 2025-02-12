@@ -3,11 +3,11 @@ class Krr < Formula
     homepage "https://github.com/robusta-dev/krr"
   
     if OS.mac?
-        url "https://github.com/robusta-dev/krr/releases/download/v1.21.0/krr-macos-latest-v1.21.0.zip"
-        sha256 "48e3b1412c449260d10bb8d8a5ba91289b298d164b1235a5c4d621822eb07c97"
+        url "https://github.com/robusta-dev/krr/releases/download/v1.22.0/krr-macos-latest-v1.22.0.zip"
+        sha256 "da100ac6c1735bcbe6bcfc010e25215e2ba3536a6e57a78880cd2b522c96adf2"
     elsif OS.linux?
-        url "https://github.com/robusta-dev/krr/releases/download/v1.21.0/krr-ubuntu-latest-v1.21.0.zip"
-        sha256 "244585c5a2e2b614da4b9e1e5487a7d393c780a1973133917156a8d7e50005eb"
+        url "https://github.com/robusta-dev/krr/releases/download/v1.22.0/krr-ubuntu-latest-v1.22.0.zip"
+        sha256 "bdb05171c12ff0139adbfaf706551a273d5c58f869b07af504ba8605db2d4d01"
     end
   
     def install
